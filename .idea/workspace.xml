@@ -2,8 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e36a05-f90b-44e0-9c6e-b76bc4db6d62" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.02.36.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.06.55.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.06.56.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.06.58.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.06.59.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.00.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.02.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.03.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.04 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.04.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.05.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.06.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.07.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.07.34.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.10.36.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.10.38.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.10.48.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.06.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.13.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.17.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.18 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.18.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.22.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.24.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.31.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.42.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.11.59.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.12.03.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.12.14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.12.15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.12.38.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.12.49.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.12.58.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.13.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.15.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.26.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.34.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.35.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.36.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.13.59.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.02.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.03 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.04.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.07.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.08.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.18.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.19.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.24.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.25.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.27 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.27.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.30.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.32.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.35.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.38.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.40.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.42.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.44.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.45.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.47.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.49 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.49.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.50.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.52.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.53.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.54.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.55 (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.55.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.56.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.57.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.58.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.14.59.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.15.01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.15.02.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.15.03.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.15.05.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.15.21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.18.38.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.18.53.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.18.55.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.18.57.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 15.19.01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 16.43.27.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/WhatsApp Image 2018-07-13 at 16.43.29.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/merch/WhatsApp Image 2018-07-13 at 15.14.01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/merch/WhatsApp Image 2018-07-13 at 15.14.14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/merch/WhatsApp Image 2018-07-13 at 15.14.39.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+            <state relative-caret-position="145">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="e#5980#5986#0" expanded="true" />
               </folding>
@@ -29,7 +129,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+              <folding>
+                <element signature="e#3289#3295#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/gallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +168,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/gallery.js" />
+        <option value="$PROJECT_DIR$/assets/css/gallery.css" />
+        <option value="$PROJECT_DIR$/gallery.html" />
       </list>
     </option>
   </component>
@@ -87,6 +219,12 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cars-n-chrome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cars-n-chrome" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -95,6 +233,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -126,12 +265,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531488855439</updated>
-      <workItem from="1531488856771" duration="2997000" />
+      <workItem from="1531488856771" duration="5407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2997000" />
+    <option name="totallyTimeSpent" value="5407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -172,10 +311,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+        <state relative-caret-position="145">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="e#5980#5986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/gallery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding>
+            <element signature="e#3289#3295#0" expanded="true" />
           </folding>
         </state>
       </provider>
