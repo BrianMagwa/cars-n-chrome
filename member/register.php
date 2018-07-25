@@ -138,7 +138,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                   <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
                   <span class="help-block"><?php echo $confirm_password_err; ?></span>
               </div>
-                  <input type="submit" value="Submit" style="margin-top: 20px;">
+                  <input type="submit" value="Submit" style="margin-top: 20px;" class="button alt">
           </form>
         </div>
       </section>

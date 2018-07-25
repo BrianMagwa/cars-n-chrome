@@ -113,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <input type="password" name="password" class="form-control">
                     <span class="help-block"><?php echo $password_err; ?></span>
                 </div>
-                <input type="submit" style="margin-top: 20px;" value="Login">
+                <input type="submit" style="margin-top: 20px;" value="Login" class="button alt">
             </form>
         </div>
       </section>
