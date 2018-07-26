@@ -181,7 +181,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                                 </div>
                                 <div class="card-body">
                                     <div class="author">
-                                        <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="...">
+                                        <img class="avatar border-gray" src="assets/img/faces/face-1.jpg" alt="...">
                                         <h5 class="title"><?php echo htmlspecialchars($_SESSION['username']); ?></h5>
                                     </div>
                                     <p class="description text-center">
