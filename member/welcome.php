@@ -9,15 +9,14 @@ session_start();
 if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
   header("location: login.php");
   exit;
+} else {
+  // save username as edit key since its unique
+  $key = $_SESSION['username'];
 }
 
 // Define variables and initialize with empty values
 $name = $about = "";
 $name_err = $about_err = "";
-
-// save username as edit key since its unique
-$key = $_SESSION['username'];
-
 
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -219,12 +218,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <h4 class="card-title">Edit Profile</h4>
                                 </div>
                                 <div class="card-body">
+                                  <!-- Open while loop for fetch result -->
+                                  <?php
+                                  // try get if available
+                                  $result = mysqli_query($link, "SELECT * FROM users");
+                                  while($row = mysqli_fetch_array($result)) :
+                                  ?>
                                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group <?php echo (!empty($name_err)) ? 'has-error' : ''; ?>">
                                                     <label>Name</label>
-                                                    <input type="text" class="form-control" placeholder="Full Name" name="name" value="<?php echo $name; ?>"><?php echo $name; ?>
+                                                    <input type="text" class="form-control" placeholder="Full Name" name="name" value="<?php echo $name; ?>">
+                                                    <?php echo $row['name']; ?>
                                                     <span class="help-block"><?php echo $name_err;?></span>
                                                 </div>
                                             </div>
@@ -233,7 +239,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                             <div class="col-md-12">
                                                 <div class="form-group <?php echo (!empty($about_err)) ? 'has-error' : ''; ?>">
                                                     <label>About Me</label>
-                                                    <textarea rows="4" cols="80" class="form-control" placeholder="Jeep is Bae :)" name="about" value="<?php echo $about; ?>"></textarea><?php echo $about; ?>
+                                                    <textarea rows="4" cols="80" class="form-control" placeholder="Jeep is Bae :)" name="about" value="<?php echo $about; ?>"></textarea>
                                                     <span class="help-block"><?php echo $about_err;?></span>
                                                 </div>
                                             </div>
@@ -255,9 +261,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                         <h5 class="title">@<?php echo htmlspecialchars($_SESSION['username']); ?></h5>
                                     </div>
                                     <p class="description text-center">
-                                        "Lamborghini Mercy
-                                        <br> Your chick she so thirsty
-                                        <br> I'm in that two seat Lambo"
+
                                     </p>
                                 </div>
                                 <hr>
@@ -272,6 +276,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                         <i class="fa fa-google-plus-square"></i>
                                     </button>
                                 </div>
+                              <?php endwhile; ?>
+                              <!-- End Loop for Fetch Result -->
                             </div>
                         </div>
                     </div>
