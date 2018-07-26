@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7e36a05-f90b-44e0-9c6e-b76bc4db6d62" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/member/welcome.php" afterDir="false" />
-    </list>
+    <list default="true" id="d7e36a05-f90b-44e0-9c6e-b76bc4db6d62" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
