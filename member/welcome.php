@@ -1,4 +1,7 @@
 <?php
+// Include config file
+require_once 'config.php';
+
 // Initialize the session
 session_start();
 
@@ -7,6 +10,85 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
   header("location: login.php");
   exit;
 }
+
+// Define variables and initialize with empty values
+$name = $about = "";
+$name_err = $about_err = "";
+
+// save username as edit key since its unique
+$key = $_SESSION['username'];
+
+
+// Processing form data when form is submitted
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+
+    // Validate name
+    if(empty(trim($_POST["name"]))){
+        $name_err = "Please enter a name.";
+    } else{
+        // Prepare a select statement
+        $sql = "SELECT id FROM users WHERE username = '$key'";
+
+        if($stmt = mysqli_prepare($link, $sql)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "s", $param_name);
+
+            // Set parameters
+            $param_name = trim($_POST["name"]);
+
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                /* store result */
+                mysqli_stmt_store_result($stmt);
+                $name = trim($_POST["name"]);
+            } else{
+                echo "Oops! Something went wrong. Please try again later.";
+            }
+        }
+
+        // Close statement
+        mysqli_stmt_close($stmt);
+    }
+
+    // Validate about
+    if(empty(trim($_POST['about']))){
+        $about_err = "Please enter an about.";
+    } elseif(strlen(trim($_POST['about'])) > 60){
+        $about_err = "Must have less than 60 characters.";
+    } else{
+        $about = trim($_POST['about']);
+    }
+
+    // Check input errors before inserting in database
+    if(empty($name_err) && empty($about_err)){
+
+        // Prepare an insert statement
+        $sql = "UPDATE users SET about='$about', name='$name' WHERE username='$key'";
+
+        if($stmt = mysqli_prepare($link, $sql)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "ss", $param_name, $param_about);
+
+            // Set parameters
+            $param_name = $name;
+            $param_about = $about;
+
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                // Redirect to login page
+                header("location: welcome.php");
+            } else{
+                echo "Something went wrong. Please try again later.";
+            }
+        }
+
+        // Close statement
+        mysqli_stmt_close($stmt);
+    }
+
+    // Close connection
+    mysqli_close($link);
+  }
 ?>
 
 <!DOCTYPE html>
@@ -137,34 +219,22 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                                     <h4 class="card-title">Edit Profile</h4>
                                 </div>
                                 <div class="card-body">
-                                    <form>
+                                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="exampleInputEmail1">Email address</label>
-                                                    <input type="email" class="form-control" placeholder="Email">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 pr-1">
-                                                <div class="form-group">
-                                                    <label>First Name</label>
-                                                    <input type="text" class="form-control" placeholder="First Name" value="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 pl-1">
-                                                <div class="form-group">
-                                                    <label>Last Name</label>
-                                                    <input type="text" class="form-control" placeholder="Last Name" value="">
+                                                <div class="form-group <?php echo (!empty($name_err)) ? 'has-error' : ''; ?>">
+                                                    <label>Name</label>
+                                                    <input type="text" class="form-control" placeholder="Full Name" name="name" value="<?php echo $name; ?>"><?php echo $name; ?>
+                                                    <span class="help-block"><?php echo $name_err;?></span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="form-group">
+                                                <div class="form-group <?php echo (!empty($about_err)) ? 'has-error' : ''; ?>">
                                                     <label>About Me</label>
-                                                    <textarea rows="4" cols="80" class="form-control" placeholder="Jeep is Bae :)" value=""></textarea>
+                                                    <textarea rows="4" cols="80" class="form-control" placeholder="Jeep is Bae :)" name="about" value="<?php echo $about; ?>"></textarea><?php echo $about; ?>
+                                                    <span class="help-block"><?php echo $about_err;?></span>
                                                 </div>
                                             </div>
                                         </div>
