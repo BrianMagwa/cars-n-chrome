@@ -218,12 +218,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <h4 class="card-title">Edit Profile</h4>
                                 </div>
                                 <div class="card-body">
-                                  <!-- Open while loop for fetch result -->
-                                  <?php
-                                  // try get if available
-                                  $result = mysqli_query($link, "SELECT * FROM users");
-                                  while($row = mysqli_fetch_array($result)) :
-                                  ?>
                                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                         <div class="row">
                                             <div class="col-md-12">
@@ -240,6 +234,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                 <div class="form-group <?php echo (!empty($about_err)) ? 'has-error' : ''; ?>">
                                                     <label>About Me</label>
                                                     <textarea rows="4" cols="80" class="form-control" placeholder="Jeep is Bae :)" name="about" value="<?php echo $about; ?>"></textarea>
+                                                    <?php echo $row['about']; ?>
                                                     <span class="help-block"><?php echo $about_err;?></span>
                                                 </div>
                                             </div>
@@ -256,12 +251,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <img src="https://images.unsplash.com/photo-1493467212541-7fd28e8cac2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=78fbdfec5cff5fdb559cc6955f99a508&auto=format&fit=crop&w=500&q=60" alt="...">
                                 </div>
                                 <div class="card-body">
+                                  <!-- Open while loop for fetch result -->
+                                  <?php
+                                  // try get if available
+                                  $result = mysqli_query($link, "SELECT * FROM users");
+                                  while($row = mysqli_fetch_array($result)) :
+                                  ?>
                                     <div class="author">
                                         <img class="avatar border-gray" src="assets/img/faces/face-1.jpg" alt="...">
+                                        <h4> <?php echo $row['name']; ?></h4>
                                         <h5 class="title">@<?php echo htmlspecialchars($_SESSION['username']); ?></h5>
                                     </div>
                                     <p class="description text-center">
-
+                                      <?php echo $row['about']; ?>
                                     </p>
                                 </div>
                                 <hr>
