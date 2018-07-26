@@ -113,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="../">Home</a></li>
-					<li><a href="../gallery.html">Gallery</a></li>
+					<li><a href="../gallery.php">Gallery</a></li>
           <li><a href="login.php">Member Login</a></li>
 				</ul>
 			</nav>
