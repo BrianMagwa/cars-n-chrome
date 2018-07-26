@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/gallery.css" />
 </head>
 <body>
 
@@ -24,18 +23,71 @@
     </ul>
 </nav>
 
+<div id='photos'>
 <?php
 $folder = 'images/gallery/';
 $filetype = '*.*';
 $files = glob($folder.$filetype);
 $count = count($files);
 for ($i = 0; $i < $count; $i++) {
-   echo "<div class='itemS'>
-<li><div class='itemType'><input type='image' src='".$files[$i]."'/> <gt_descA>".substr($files[$i],strlen($folder),strpos($files[$i], '.')-strlen($folder))."</gt_descA></div></li>
-</div>";
+   echo "<img src='".$files[$i]."'/>";
 }
 ?>
 
+<style media="screen">
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+</style>
+</div>
 
  <!--Footer -->
 <!--<footer id="footer">-->
