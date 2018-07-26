@@ -182,7 +182,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                                 <div class="card-body">
                                     <div class="author">
                                         <img class="avatar border-gray" src="assets/img/faces/face-1.jpg" alt="...">
-                                        <h5 class="title"><?php echo htmlspecialchars($_SESSION['username']); ?></h5>
+                                        <h5 class="title">@<?php echo htmlspecialchars($_SESSION['username']); ?></h5>
                                     </div>
                                     <p class="description text-center">
                                         "Lamborghini Mercy
