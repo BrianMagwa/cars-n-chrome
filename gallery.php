@@ -19,7 +19,7 @@
     <ul class="links">
         <li><a href="index.html">Home</a></li>
         <li><a href="gallery.php">Gallery</a></li>
-        <li><a href="member">Member Login</a></li>
+        <li><a href="member/login.php">Member Login</a></li>
     </ul>
 </nav>
 
