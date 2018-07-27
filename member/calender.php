@@ -81,6 +81,21 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
               </div>
           </nav>
           <!-- End Navbar -->
+          <div class="content">
+              <div class="container-fluid">
+                  <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                              <div data-tockify-component="calendar" data-tockify-calendar="wangonya"></div>
+                              <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
           <footer class="footer">
               <div class="container">
                   <nav>
