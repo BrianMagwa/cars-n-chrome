@@ -1,16 +1,24 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
 		<title>Cars & Chrome</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="Description" content="Cars & Chrome club of Kenya official website">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
-				<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo" width="80"></a></div>
+				<div class="logo">
+					<a href="index.html">
+						<picture>
+							<source type="image/webp" srcset="images/logo.webp">
+							<img src="images/logo.png" alt="logo" width="80">
+						</picture>
+					</a>
+				</div>
 				<a href="#menu"><span>Menu</span></a>
 			</header>
 
@@ -133,7 +141,7 @@
 							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
 						</div>
 						<ul class="actions">
-							<li><input value="Send Message" class="button alt" type="submit"></li>
+							<li><input value="Send Message" class="button alt" type="submit" disabled></li>
 						</ul>
 					</form>
 
